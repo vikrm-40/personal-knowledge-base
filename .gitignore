@@ -1,0 +1,56 @@
+# ==================================================
+# PERSONAL KNOWLEDGE BASE - PRIVATE USER DATA
+# ==================================================
+
+# Knowledge base runtime
+gemini_kb_runtime/
+*_kb_runtime/
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Gemini / Google Takeout exports
+MyActivity.html
+*.MyActivity.html
+*MyActivity*.html
+
+# ChatGPT exports
+conversations.json
+chat.html
+export.zip
+
+# Generated knowledge base files
+*.xlsx
+*.xls
+*.jsonl
+
+# Local UI state / bookmarks
+gemini_kb_ui_state.sqlite
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+~$*
